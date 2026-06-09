@@ -1,52 +1,101 @@
- Python Mini Projects
-A collection of beginner to intermediate Python projects built to strengthen core programming concepts including logic building, OOP, GUI, APIs, and automation.
+# 🐍 Python Mini Projects
 
-📂 Projects Overview
-ProjectDescriptionConcepts Used🔢 CalculatorBasic arithmetic operations via CLIFunctions, Conditionals⏰ Alarm ClockGUI-based alarm with sound alertTkinter, Threading, DateTime⏳ Countdown TimerCountdown from user-defined secondsLoops, Time module✂️ Rock Paper ScissorsPlay against computer with random choiceRandom, Functions📝 To-Do ListAdd, remove, and view tasks via CLILists, Loops, Functions🌡️ Temperature ConverterConvert between Celsius and FahrenheitInput handling, Math⚖️ Weight ConverterConvert between Kilograms and PoundsInput handling, Math📧 Email SlicerExtract username and domain from emailString slicing, Index🎭 Mad LibsFun word-fill story generatorString formatting, Input❓ Quiz GameMultiple choice quiz with score trackerLists, Tuples, Loops🤖 Voice AssistantAI voice assistant (HARSHI) with speech I/OSpeechRecognition, pyttsx3, Wikipedia, pywhatkit
+A collection of beginner to intermediate Python projects built to strengthen core programming concepts — logic building, GUI development, APIs, and automation.
 
-🤖 Featured Project — HARSHI Voice Assistant
-A personal voice assistant built with Python that can:
+---
 
-🎵 Play songs on YouTube
-⏰ Tell the current time
-🔍 Search Wikipedia for information
-😂 Tell jokes
-🚀 Open applications like Chrome and VS Code
-🗣️ Respond using text-to-speech (female voice)
+## 📂 Projects Overview
 
-Libraries used: SpeechRecognition · pyttsx3 · pywhatkit · wikipedia · pyjokes · datetime · os
+| # | Project | Description | Concepts Used |
+|---|---------|-------------|---------------|
+| 1 | 🔢 Calculator | Performs addition, subtraction, multiplication, division, and modulus via CLI | Functions, Conditionals |
+| 2 | ⏰ Alarm Clock | GUI-based alarm clock with dropdown time selection and sound alert | Tkinter, Threading, DateTime |
+| 3 | ⏳ Countdown Timer | Counts down from a user-defined number of seconds in HH:MM:SS format | Loops, Time module |
+| 4 | ✂️ Rock Paper Scissors | Play against the computer with randomized choices | Random, Functions |
+| 5 | 📝 To-Do List | CLI task manager to add, remove, and view tasks | Lists, Loops, Functions |
+| 6 | 🌡️ Temperature Converter | Converts between Celsius and Fahrenheit | Input handling, Math |
+| 7 | ⚖️ Weight Converter | Converts between Kilograms and Pounds | Input handling, Math |
+| 8 | 📧 Email Slicer | Extracts username and domain from any email address | String slicing |
+| 9 | 🎭 Mad Libs | Interactive word-fill story generator | String formatting, Input |
+| 10 | ❓ Quiz Game | Multiple choice quiz with answer tracking and score percentage | Lists, Tuples, Loops |
+| 11 | 🤖 Voice Assistant | AI-powered voice assistant (HARSHI) with speech input/output | SpeechRecognition, pyttsx3, APIs |
 
-⏰ Featured Project — Alarm Clock
-A GUI-based alarm clock built with Tkinter that:
+---
 
-Lets you set hour, minute, and second via dropdowns
-Runs alarm check on a separate thread (non-blocking UI)
-Plays a .wav sound file when the set time is reached
+## 🤖 Featured — HARSHI Voice Assistant
 
-Libraries used: tkinter · datetime · time · winsound · threading
+> A personal AI voice assistant that listens, understands, and responds using a female voice.
 
-🧰 Tech Stack
-ToolPurposePython 3Core programming languageTkinterGUI developmentSpeechRecognitionVoice inputpyttsx3Text-to-speech outputpywhatkitYouTube automationwikipediaInfo lookupRandom / DateTime / OSBuilt-in utilities
+**Capabilities:**
+- 🎵 Play songs on YouTube by voice command
+- ⏰ Tell the current time
+- 🔍 Fetch information from Wikipedia
+- 😂 Tell jokes on demand
+- 🚀 Open Chrome and VS Code
+- 🗣️ Full text-to-speech responses
 
-🚀 How to Run
-1. Clone the repository
-bashgit clone https://github.com/HarshiniBodaballa10/Python.git
+**Libraries:** `speech_recognition` · `pyttsx3` · `pywhatkit` · `wikipedia` · `pyjokes` · `datetime` · `os`
+
+---
+
+## ⏰ Featured — Alarm Clock
+
+> A GUI-based alarm clock with a clean Tkinter interface and threaded alarm logic.
+
+**Features:**
+- Dropdown menus for Hour, Minute, and Second selection
+- Non-blocking UI using Python `threading`
+- Plays a custom `.wav` sound when alarm triggers
+
+**Libraries:** `tkinter` · `datetime` · `time` · `winsound` · `threading`
+
+---
+
+## 🧰 Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| **Python 3** | Core programming language |
+| **Tkinter** | GUI development |
+| **SpeechRecognition** | Voice input processing |
+| **pyttsx3** | Text-to-speech output |
+| **pywhatkit** | YouTube automation |
+| **wikipedia** | Information lookup |
+| **Random / DateTime / OS** | Built-in Python utilities |
+
+---
+
+## 🚀 How to Run
+
+### Clone the Repository
+```bash
+git clone https://github.com/HarshiniBodaballa10/Python.git
 cd Python
-2. Install dependencies (for Voice Assistant)
-bashpip install speechrecognition pyttsx3 pywhatkit wikipedia pyjokes pyaudio
-3. Run any project
-bashpython calculator.py
+```
+
+### Install Dependencies
+```bash
+pip install speechrecognition pyttsx3 pywhatkit wikipedia pyjokes pyaudio
+```
+
+### Run Any Project
+```bash
+python calculator.py
 python Alarm.py
+python Quizgame.py
 python assistant.py
+```
 
-Note: For the Alarm Clock, place a sound.wav file in the same directory before running.
+> ⚠️ For the Alarm Clock, place a `sound.wav` file in the same directory before running.
 
+---
 
-💡 Key Concepts Practiced
-Functions · Loops · Conditionals · String Manipulation · List Operations · Tkinter GUI · Threading · API Integration · Speech Recognition · Text-to-Speech · DateTime · Random Module
+## 💡 Concepts Covered
 
+`Functions` · `Loops` · `Conditionals` · `String Manipulation` · `List & Tuple Operations` · `Tkinter GUI` · `Multithreading` · `Speech Recognition` · `Text-to-Speech` · `API Integration` · `DateTime` · `Random Module`
 
-Built to learn Python hands-on — one project at a time.
+---
 
+> *Built to learn Python hands-on — one project at a time.*
 
-Harshini Bodaballa · GitHub
+**Harshini Bodaballa** · [GitHub Profile](https://github.com/HarshiniBodaballa10)
